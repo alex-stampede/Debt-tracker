@@ -72,12 +72,13 @@ button:hover {
 
 .notification {
     display: flex;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
+    background: rgba(102, 102, 102, 0.281); /* Fondo blanco translúcido */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque en el fondo */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidad con Safari */
 }
 
 .concepto{
