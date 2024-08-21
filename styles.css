@@ -76,8 +76,7 @@ button:hover {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-    background: rgba(59, 19, 95,);
-    backdrop-filter: blur(15px);
+    background: #7c7c7c44
 }
 
 .concepto{
