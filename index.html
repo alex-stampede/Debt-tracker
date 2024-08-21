@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Deudas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title"> Deuda Total: $<span id="total-balance">0</span></h1>
+        <div class="form">
+            <input type="text" id="concept" placeholder="Concepto">
+            <input type="number" id="amount" placeholder="Cantidad">
+            <input type="number" id="months" placeholder="Mensualidades restantes">
+            <input type="date" id="due-date">
+            <button id="add-debt">Agregar Deuda</button>
+        </div>
+        <div id="debts-list" class="notifications-container"></div>
+        <button id="clear-all">Borrar toda la información</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
